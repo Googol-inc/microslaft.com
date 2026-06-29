@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiDOS Desktop - Microslaft</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fcfcfc;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .nav-left {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-right: 30px;
+            text-decoration: none;
+        }
+        .logo-icon {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: #737373;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #262626;
+            font-size: 14px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .nav-links .active {
+            font-weight: 600;
+            border-bottom: 2px solid #0067b8;
+            padding-bottom: 4px;
+        }
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .main-content h1 {
+            font-size: 40px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .main-content p {
+            font-size: 18px;
+            color: #505050;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+        .desktop-preview {
+            width: 100%;
+            max-width: 960px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+            border: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html" class="logo-container">
+                <img class="logo-icon" src="https://akamaized.net" alt="Microslaft Icon">
+                <div class="logo">Microslaft</div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="microslaft365.html">Microslaft 365</a></li>
+                <li><a href="teams.html">Teams</a></li>
+                <li><a href="widos.html" class="active">WiDOS</a></li>
+                <li><a href="surface.html">Surface</a></li>
+                <li><a href="xdow.html">Xdow</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1>The WiDOS Desktop</h1>
+        <p>Experience a clean, centered taskbar, beautiful fluent design animations, and intelligent window snapping built right into the core layout.</p>
+        <img class="desktop-preview" src="https://akamaized.net" alt="WiDOS Desktop Environment">
+    </div>
+
+</body>
+</html>
